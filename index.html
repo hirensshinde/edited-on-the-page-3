@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vishal Prajapati — Android & Flutter Developer</title>
+<meta name="description" content="Vishal Prajapati is an Android & Flutter developer at Veyon Labs, Ahmedabad, building clean, performant mobile apps like Groot, the income-expense tracker.">
+<meta property="og:site_name" content="Vishal Prajapati — Mobile Developer">
+<meta property="og:title" content="Vishal Prajapati — Android & Flutter Developer">
+<meta property="og:description" content="Portfolio of Vishal Prajapati, mobile developer in Ahmedabad specializing in Android, Flutter and iOS app development.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=1200">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Vishal Prajapati — Android & Flutter Developer">
+<meta name="twitter:description" content="Portfolio of Vishal Prajapati, mobile developer in Ahmedabad specializing in Android, Flutter and iOS app development.">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=1200">
+<meta name="theme-color" content="#0d1117">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        ink: '#0d1117',
+        panel: '#141b22',
+        accent: '#3ddc84',
+        accent2: '#3cc8e5',
+        muted: '#8b98a5'
+      },
+      fontFamily: {
+        sans: ['Sora', 'sans-serif'],
+        mono: ['"Space Mono"', 'monospace']
+      }
+    }
+  }
+}
+</script>
+<link rel="stylesheet" href="assets/site.css">
+<script src="assets/site.js" defer></script>
+</head>
+<body class="bg-ink text-slate-200 font-sans antialiased">
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="sticky top-0 z-40 bg-ink/90 backdrop-blur border-b border-white/5">
+  <div class="max-w-6xl mx-auto px-5 flex items-center justify-between h-16">
+    <a href="index.html" class="flex items-center gap-2 font-bold text-lg tracking-tight text-white">
+      <span class="logo-mark">VP</span>
+      <span>Vishal Prajapati</span>
+    </a>
+    <nav aria-label="Primary" class="hidden md:block">
+      <ul class="flex gap-8 text-sm font-medium">
+        <li><a href="index.html" aria-current="page" class="nav-link nav-current">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="menu-btn" class="md:hidden text-white" aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle menu">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+  <div id="mobile-menu" class="md:hidden hidden border-t border-white/5 bg-panel">
+    <ul class="flex flex-col px-5 py-3 gap-1 text-sm font-medium">
+      <li><a href="index.html" aria-current="page" class="block py-2 nav-current">Home</a></li>
+      <li><a href="about.html" class="block py-2">About</a></li>
+      <li><a href="projects.html" class="block py-2">Projects</a></li>
+      <li><a href="contact.html" class="block py-2">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="relative overflow-hidden bg-panel">
+    <div class="max-w-6xl mx-auto px-5 pt-16 pb-24 md:pt-24 md:pb-32 grid md:grid-cols-[1.2fr_0.8fr] gap-12 items-center bg-panel">
+      <div>
+        <p class="font-mono text-accent text-sm tracking-widest uppercase mb-4">Android · Flutter · iOS</p>
+        <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight tracking-tight">
+          I build mobile apps that feel native, fast and honest.
+        </h1>
+        <p class="mt-6 text-lg text-muted max-w-xl">
+          Android developer at <span class="text-slate-200 font-semibold">Veyon Labs</span>, Ahmedabad, since 2024.
+          MCA graduate from SSIT, Gandhinagar (2026). I design and ship production apps across Android Studio,
+          Flutter and Xcode — most recently <span class="text-slate-200 font-semibold">Groot</span>, an income &amp; expense tracker.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-4">
+          <a href="projects.html" class="btn-primary">View my work</a>
+          <a href="contact.html" class="btn-ghost">Get in touch</a>
+        </div>
+        <div class="mt-10 flex flex-wrap gap-6 text-sm text-muted font-mono">
+          <span>📍 Ahmedabad, India</span>
+          <span>🎓 MCA — SSIT 2026</span>
+          <span>💼 Veyon Labs, 2024–present</span>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="phone-mock mx-auto">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <p class="font-mono text-xs text-accent mb-2">Groot — Expense Tracker</p>
+            <div class="screen-card">
+              <p class="text-xs text-muted">Balance</p>
+              <p class="text-2xl font-bold text-white">₹ 42,350</p>
+            </div>
+            <div class="screen-row">
+              <span>🍔 Food</span><span class="text-red-400">-₹450</span>
+            </div>
+            <div class="screen-row">
+              <span>💰 Salary</span><span class="text-accent">+₹35,000</span>
+            </div>
+            <div class="screen-row">
+              <span>🚕 Travel</span><span class="text-red-400">-₹220</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="border-t border-white/5 bg-panel/40" aria-labelledby="skills-heading">
+    <div class="max-w-6xl mx-auto px-5 py-20">
+      <h2 id="skills-heading" class="text-3xl font-bold text-white mb-2">Core skills</h2>
+      <p class="text-muted mb-10 max-w-2xl">Tools and platforms I use daily to design, build, test and ship mobile products.</p>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div class="skill-card">
+          <h3 class="font-semibold text-white mb-1">Android (Kotlin/Java)</h3>
+          <p class="text-sm text-muted">Native app architecture, Jetpack components, Material Design, Android Studio tooling.</p>
+        </div>
+        <div class="skill-card">
+          <h3 class="font-semibold text-white mb-1">Flutter & Dart</h3>
+          <p class="text-sm text-muted">Cross-platform UI, state management, animations, platform channels.</p>
+        </div>
+        <div class="skill-card">
+          <h3 class="font-semibold text-white mb-1">iOS & Xcode</h3>
+          <p class="text-sm text-muted">Building and debugging iOS builds, provisioning, App Store release flow.</p>
+        </div>
+        <div class="skill-card">
+          <h3 class="font-semibold text-white mb-1">Data & Storage</h3>
+          <p class="text-sm text-muted">SQLite, Room, Firebase, REST APIs, local-first data sync.</p>
+        </div>
+        <div class="skill-card">
+          <h3 class="font-semibold text-white mb-1">UI/UX for Mobile</h3>
+          <p class="text-sm text-muted">Clean, functional interfaces with attention to motion and micro-interactions.</p>
+        </div>
+        <div class="skill-card">
+          <h3 class="font-semibold text-white mb-1">Version Control</h3>
+          <p class="text-sm text-muted">Git workflows, code review, collaborative feature branching.</p>
+        </div>
+        <div class="skill-card">
+          <h3 class="font-semibold text-white mb-1">Testing & Debugging</h3>
+          <p class="text-sm text-muted">Unit testing, Logcat/Instruments profiling, crash triage.</p>
+        </div>
+        <div class="skill-card">
+          <h3 class="font-semibold text-white mb-1">Publishing</h3>
+          <p class="text-sm text-muted">Play Store & App Store release pipelines, versioning, store listings.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-6xl mx-auto px-5 py-20" aria-labelledby="featured-heading">
+    <div class="flex items-end justify-between flex-wrap gap-4 mb-10">
+      <div>
+        <h2 id="featured-heading" class="text-3xl font-bold text-white mb-2">Featured project</h2>
+        <p class="text-muted max-w-xl">A deeper look at my most recent build.</p>
+      </div>
+      <a href="projects.html" class="text-accent font-medium hover:underline">All projects →</a>
+    </div>
+    <div class="grid md:grid-cols-2 gap-10 items-center project-feature">
+      <div>
+        <p class="font-mono text-xs uppercase tracking-widest text-accent mb-3">Flutter · Android · Local Storage</p>
+        <h3 class="text-2xl font-bold text-white mb-3">Groot — Income & Expense Tracker</h3>
+        <p class="text-muted mb-5">
+          Groot helps people track daily income and spending with zero friction — quick entry, category
+          breakdowns, and a running balance that updates instantly. Built with Flutter for a smooth
+          cross-platform experience and a local-first database so it works fully offline.
+        </p>
+        <ul class="space-y-2 text-sm text-slate-300 mb-6">
+          <li>✓ Add, edit and categorize transactions in two taps</li>
+          <li>✓ Visual summary of income vs expense by month</li>
+          <li>✓ Offline-first local storage, no account required</li>
+          <li>✓ Clean, minimal UI tuned for daily use</li>
+        </ul>
+        <a href="projects.html" class="btn-primary">See project details</a>
+      </div>
+      <div class="rounded-2xl overflow-hidden border border-white/10">
+        <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=900&q=80" alt="Mobile finance app concept showing charts and transaction lists" class="w-full h-full object-cover">
+      </div>
+    </div>
+  </section>
+
+  <section class="border-t border-white/5 bg-panel/40">
+    <div class="max-w-6xl mx-auto px-5 py-16 text-center">
+      <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Have an app idea in mind?</h2>
+      <p class="text-muted max-w-xl mx-auto mb-8">I'm open to freelance builds and full-time opportunities in Android and Flutter development.</p>
+      <a href="contact.html" class="btn-primary">Let's talk</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="border-t border-white/5 bg-ink">
+  <div class="max-w-6xl mx-auto px-5 py-10 flex flex-col md:flex-row items-center justify-between gap-4">
+    <div class="flex items-center gap-2 text-white font-bold">
+      <span class="logo-mark">VP</span>
+      <span>Vishal Prajapati</span>
+    </div>
+    <nav aria-label="Footer">
+      <ul class="flex gap-6 text-sm text-muted">
+        <li><a href="index.html" class="hover:text-accent">Home</a></li>
+        <li><a href="about.html" class="hover:text-accent">About</a></li>
+        <li><a href="projects.html" class="hover:text-accent">Projects</a></li>
+        <li><a href="contact.html" class="hover:text-accent">Contact</a></li>
+      </ul>
+    </nav>
+    <p class="text-xs text-muted font-mono">© 2025 Vishal Prajapati. Ahmedabad, India.</p>
+  </div>
+</footer>
+
+</body>
+</html>
